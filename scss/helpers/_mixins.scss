@@ -1,0 +1,41 @@
+// Cover Image
+@mixin cover-background($img-url) {
+	background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url($img-url);
+	background-repeat: no-repeat;	
+	background-position: center center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+// Flexbox Mixins
+@mixin flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;  
+}
+
+
+		// Media Query Mixins
+@mixin bp-small {
+	@media (min-width: 550px) {
+		@content;
+	}
+}
+
+@mixin bp-medium {
+	@media (min-width: 768px) {
+		@content;
+	}
+}
+
+@mixin bp-large {
+	@media (min-width: 992px) {
+		@content;
+	}
+}
+
+@mixin bp-xLarge {
+	@media (min-width: 1200px) {
+		@content;
+	}
+}

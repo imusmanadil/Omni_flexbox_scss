@@ -1,0 +1,46 @@
+#header {
+	height: 100vh;
+	@include cover-background('../img/hero.jpg');
+	color: #fff;
+
+	.row {
+		border: solid cyan;
+	}
+
+	.logo {
+		// border: solid red;
+		height: 100px;
+		width: 100px;
+		margin: 0 auto;
+
+		img { 
+			// border: solid;
+			width: 100%;
+		}
+	}
+
+	nav {
+		// border: solid teal;
+		margin-top: 10px;
+
+		@include bp-small {
+			// border: solid blue;
+			margin-top: 0;
+		}
+
+		a {
+			// border: solid;
+			display: block;
+			text-align: center;
+			padding: 7px;
+			color: #fff;
+		}
+	}
+
+	.text-box {
+		border: solid lime;
+	}
+
+}
+
+
