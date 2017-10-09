@@ -1,0 +1,42 @@
+#sec-map {
+	// border: solid red;
+
+	#googleMap {
+		height: 350px;
+	}
+
+	.map-form {
+		padding: 25px 15px;
+
+		.row {
+			&:first-child {
+				text-align: center;
+				margin-bottom: 20px;
+			}
+		}
+	}
+
+	.form-row {
+		// border: 1px solid teal;
+		margin: 15px 0;
+
+		label, input {
+			display: block;
+			width: 100%;
+		}
+		select {
+			margin-top: 10px;
+			width: 100%;
+			padding: 5px;
+		}
+		input {
+			@extend select;
+		}
+		textarea {
+			@extend select;
+			height: 100px;
+		}
+		
+	}
+
+}

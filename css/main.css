@@ -78,6 +78,13 @@ i {
     #header .text-box h1 {
       margin-bottom: 10px; }
 
+footer {
+  border: solid;
+  background: #333;
+  color: #888; }
+  footer a {
+    color: #888; }
+
 #sec-features {
   padding: 25px 0;
   text-align: center; }
@@ -100,6 +107,7 @@ i {
     width: 100%; }
 
 #sec-steps {
+  background: #f4f4f4;
   padding: 25px 0; }
   #sec-steps .row:first-child {
     text-align: center; }
@@ -179,7 +187,54 @@ i {
       vertical-align: middle; }
 
 #sec-plans {
-  border: solid red; }
+  background: #f4f4f4;
+  padding: 25px 0; }
+  #sec-plans .row:first-child {
+    text-align: center;
+    margin-bottom: 20px; }
+  #sec-plans .price-table {
+    background: #fff;
+    margin: 10px 0; }
+    #sec-plans .price-table > div:first-child,
+    #sec-plans .price-table > div:nth-of-type(2) {
+      border-bottom: 1px solid #ccc;
+      padding: 25px 20px; }
+    #sec-plans .price-table h3 + p {
+      margin: 15px 0;
+      font-size: 290%;
+      color: #e67e22; }
+      #sec-plans .price-table h3 + p span {
+        font-size: 30%;
+        margin-left: 15px; }
+    #sec-plans .price-table div:last-child {
+      padding: 15px 0;
+      text-align: center; }
+  #sec-plans li {
+    margin: 5px 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+    #sec-plans li i {
+      margin-right: 10px; }
+
+#sec-map #googleMap {
+  height: 350px; }
+#sec-map .map-form {
+  padding: 25px 15px; }
+  #sec-map .map-form .row:first-child {
+    text-align: center;
+    margin-bottom: 20px; }
+#sec-map .form-row {
+  margin: 15px 0; }
+  #sec-map .form-row label, #sec-map .form-row input {
+    display: block;
+    width: 100%; }
+  #sec-map .form-row select, #sec-map .form-row input, #sec-map .form-row textarea {
+    margin-top: 10px;
+    width: 100%;
+    padding: 5px; }
+  #sec-map .form-row textarea {
+    height: 100px; }
 
 .btn, .btn-reverse {
   display: inline-block;

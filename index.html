@@ -316,19 +316,19 @@
 	</section>
 
 	<div id="sec-map">
-		<div class="map"></div>
+		<div id="googleMap"></div>
 		<div class="map-form">
 			<div class="row">
 				<h2>We're happy to hear from you</h2>
 			</div>
-			<div class="form">
+			<form>
 				<div class="form-row">
 					<label for="name">Name</label>
-					<input type="text" id="name">
+					<input type="text" id="name" placeholder="Your Name">
 				</div>
 				<div class="form-row">
 					<label for="email">Email</label>
-					<input type="email" id="email">
+					<input type="email" id="email" placeholder="Your Email">
 				</div>
 				<div class="form-row">
 					<label for="find-us">How did you find us?</label>
@@ -340,15 +340,11 @@
 					</select>
 				</div>
 				<div class="form-row">
-					<label for="check">Newsletter</label>
-					<input type="checkbox" id="check">
-				</div>
-				<div class="form-row">
 					<label for="msg">Drop us a Line</label>
-					<textarea id="msg"></textarea>
+					<textarea id="msg" placeholder="Your Message"></textarea>
 				</div>
 				<a href="#" class="btn">Send it!</a>
-			</div>
+			</form>
 		</div>
 	</div>
 
@@ -380,6 +376,18 @@
 			<p>Copyright @copy; 2017 by Omni Food. All rights reserved.</p>
 		</div>
 	</footer>
+
+	<script>
+function myMap() {
+var mapProp= {
+    center:new google.maps.LatLng(24.8674357,67.0802633),
+    zoom:15,
+};
+var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+}
+</script>
+
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD-Bh2aIV2h1AwET1HzQdrDLrSfREgfXiE&callback=myMap"></script>
 	
 	<!-- Live Reload -->
 	<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
