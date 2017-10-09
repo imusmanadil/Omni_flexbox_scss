@@ -165,6 +165,8 @@ i {
   #sec-testimonial .row:first-child {
     text-align: center;
     margin-bottom: 20px; }
+  #sec-testimonial .testimonial-box {
+    border: solid gold; }
 
 .btn, .btn-reverse {
   display: inline-block;
