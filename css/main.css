@@ -79,11 +79,24 @@ i {
       margin-bottom: 10px; }
 
 footer {
-  border: solid;
+  padding: 20px 0;
   background: #333;
   color: #888; }
   footer a {
-    color: #888; }
+    color: #888;
+    font-size: 90%; }
+  footer .footer-nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: space-around; }
+  footer .social-nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: flex-end; }
+    footer .social-nav li {
+      margin-right: 10px; }
 
 #sec-features {
   padding: 25px 0;

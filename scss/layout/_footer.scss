@@ -1,9 +1,27 @@
 footer {
-	border: solid;
+	padding: 20px 0;
 	background: #333;
 	color: #888;
 
 	a {
 		color: #888;
+		font-size: 90%;
 	}
+
+	.footer-nav {
+		// border: solid lime;
+		@include flex;
+		justify-content: space-around;
+	}
+
+	.social-nav {
+		// border: solid lime;
+		@include flex;
+		justify-content: flex-end;
+		li {
+			// border: 1px solid #fff;
+			margin-right: 10px;
+		}
+	}
+
 }
