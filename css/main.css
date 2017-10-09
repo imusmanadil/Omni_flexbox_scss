@@ -154,7 +154,6 @@ i {
       font-size: 95%; }
 
 #sec-testimonial {
-  border: solid red;
   padding: 25px 0;
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../img/back-customers.jpg");
   background-repeat: no-repeat;
@@ -166,7 +165,18 @@ i {
     text-align: center;
     margin-bottom: 20px; }
   #sec-testimonial .testimonial-box {
-    border: solid gold; }
+    margin: 10px 0; }
+  #sec-testimonial p {
+    line-height: 140%;
+    font-style: italic;
+    margin-top: 10px; }
+  #sec-testimonial cite {
+    margin-top: 20px;
+    display: block; }
+    #sec-testimonial cite img {
+      border-radius: 50%;
+      height: 50px;
+      vertical-align: middle; }
 
 .btn, .btn-reverse {
   display: inline-block;

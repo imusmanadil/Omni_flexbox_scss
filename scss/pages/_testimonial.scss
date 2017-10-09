@@ -1,5 +1,5 @@
 #sec-testimonial {
-	border: solid red;
+	// border: solid red;
 	padding: 25px 0;
 	@include cover-background('../img/back-customers.jpg');
 	color: #fff;
@@ -12,7 +12,25 @@
 	}
 
 	.testimonial-box {
-		border: solid gold;
+		// border: solid gold;
+		margin: 10px 0;
+	}
+
+	p {
+		line-height: 140%;
+		font-style: italic;
+		margin-top: 10px;
+	}
+
+	cite {
+		// border: solid red;
+		margin-top: 20px;
+		display: block;
+			img {
+				border-radius: 50%;
+				height: 50px;
+				vertical-align: middle;
+		}
 	}
 }
 
