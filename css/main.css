@@ -178,6 +178,9 @@ i {
       height: 50px;
       vertical-align: middle; }
 
+#sec-plans {
+  border: solid red; }
+
 .btn, .btn-reverse {
   display: inline-block;
   color: #fff;
