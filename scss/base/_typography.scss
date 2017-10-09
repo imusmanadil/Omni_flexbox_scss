@@ -1,6 +1,8 @@
+$brand-color: #e67e22;
+
 html {
     font-family: 'Lato', 'Arial', sans-serif;
-    font-size: 18px;
+    font-size: 15px;
     text-rendering: optimizeLegibility;
 }
 
@@ -9,6 +11,20 @@ h1,h2,h3,h4 {
 	font-weight: normal;
 }
 
-h1 { font-size: 240%; }
+h1 { font-size: 220%; }
 h2 { font-size: 180%; }
-h3 { font-size: 110%; }
+h3 { font-size: 130%; }
+
+h2:after {
+	content: '';
+	display: block;
+	width: 100px;
+	height: 2px;
+	margin: 0 auto;
+	margin-top: 30px;
+	background: $brand-color;
+}
+
+i {
+	color: $brand-color;
+}

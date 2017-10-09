@@ -10,5 +10,14 @@
 		&:hover {
 			background: darken($brand-color, 10%);
 		}
+}
 
+.btn-reverse {
+	@extend .btn;
+	background: transparent;
+	color: $brand-color;
+	border: 1px solid $brand-color;
+		&:hover {
+			color: #fff;
+		}
 }

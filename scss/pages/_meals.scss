@@ -1,0 +1,12 @@
+#sec-meals {
+	// border: solid red;
+
+	div {
+		// border: 1px solid lime;
+		@include flex;
+
+		img {
+			width: 100%;
+		}
+	}
+}
